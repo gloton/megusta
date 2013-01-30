@@ -1,5 +1,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+<!--
+  JAGL
+   PAGINA DE REFERENCIA PARA AGREGAR BOTON
+  http://www.debubuntu.com/como-agregar-el-boton-me-gusta-de-facebook-en-tu-sitio-web/
+  EN ESTA PAGINA NO SE AGREGA ESE JAVASCRIPT Y FUNCIONA IGUAL-->
 <head>
 <title>Free Css Layout 1</title>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
@@ -15,6 +20,19 @@
       <p>Montegeraliquam sed pede in cursus praesenec vestas rhoncus wisi at wisi. Condisseloborttis enim et ipsum mauristie id felit adipiscipit ac auctortorttitor sempor. Vitantesqueat sempus non sed et mus sit vivamus purus netus hendiment. Pretiuma diam et id tempus dolor por wisi sed volutpat facilisi.</p>
       <p>Wisiet sus adipit phasellentum elit condissim consecteturpiscing sapien vivamus et congue. Utvel tris quismod cursus liberos elit nisse curabitur tur parturpis tellenterdum. Semperligula curabitae tellentesque nulla trices vestas ristibulum id justo auctor facinia. Natisdonec consequat nibh pellus.</p>
       <p>Vestibusodio euisque id elerisus lacus tincidunt sit malesuada lacus pellus parturpiscing. Pellenterdumat maecenatoque cras a magna nibh et quis diam ames et. Laoremvolutpat ac dolor eget eget temper lacus vestibus velit lacus venean. Magnaipsum tellus morbi leo aliquat nulla convallis pellentesque.</p>
+      <h1>Codigo para el facebook</h1>
+<!--inicio codigo facebook (solo agregando este codigo funciona)-->
+  <!--coloca el boton me gusta y referencia a la url actual-->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="false" data-colorscheme="light" data-action="like"></div>
+<!--fin codigo facebook-->
     </div>
   </div>
   <div id="navigation">
